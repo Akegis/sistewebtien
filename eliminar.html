@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <link rel="stylesheet" href="estilos/menu.css">
+    <link rel="stylesheet" href="estilos/estilo.css">
+</head>
+    <body>
+        <header>
+            <nav id='cssmenu'>
+                <div class="logo"><a href="index.html">Tienda </a></div>
+                <div id="head-mobile"></div>
+                <div class="button"></div>
+                <ul>
+                   
+                    <li><a href='Insertar.html'> Insertar</a></li>
+                    <li><a href='actualizar.html'>Actualizar</a></li>
+                    <li><a href='eliminar.html'>Eliminar</a></li>
+                    <li><a href='consulta.php'>Consulta</a></li>
+
+                </ul>
+            </nav>
+           
+        </header>
+<form action="eliminar.php" method="POST">
+    <div>
+        <label>ID_Producto</label>
+        <input type="number" name="ID_Producto">
+    </div>
+<input type="submit" value="Eliminar"></input>
+</form>
+    </body>
+</html>
